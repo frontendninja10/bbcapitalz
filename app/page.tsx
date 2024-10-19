@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "../ui/components/Header";
 import CopyTraders from "../ui/components/CopyTraders";
 import Footer from "../ui/components/Footer";
+import ObjectivesAccordion from "../components/ObjectivesAccordion";
 export default function Home() {
   return (
     <main>
@@ -46,16 +47,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-10 bg-white text-black">
-        <h2 className="text-3xl font-bold text-center mb-6">
-          OUR COPYTRADING OBJECTIVES
-        </h2>
-        <p className="text-center mb-8 max-w-2xl mx-auto">
-          The accomplishment of these objectives is essential to ensure seamless
-          trade copying.
-        </p>
-      </section>
-      {/* <Footer /> */}
+
+      <ObjectivesAccordion />
+      <Footer />
     </main>
   );
 }
