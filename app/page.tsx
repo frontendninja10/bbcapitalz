@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "../ui/components/Header";
 import CopyTraders from "../ui/components/CopyTraders";
 import Footer from "../ui/components/Footer";
+import ObjectivesAccordion from "../components/ObjectivesAccordion";
 export default function Home() {
   return (
     <main>
@@ -46,6 +47,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <ObjectivesAccordion />
       <Footer />
     </main>
   );
