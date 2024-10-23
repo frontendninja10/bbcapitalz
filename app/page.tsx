@@ -3,11 +3,13 @@ import Header from "../ui/components/Header";
 import CopyTraders from "../ui/components/CopyTraders";
 import Footer from "../ui/components/Footer";
 import ObjectivesAccordion from "../components/ObjectivesAccordion";
+import NavBar from "@/components/NavBar";
 export default function Home() {
   return (
     <main>
+      <NavBar />
       <Header />
-      <CopyTraders />
+      {/* <CopyTraders /> */}
       <section className="py-10 bg-gray-900 text-white">
         <h2 className="text-3xl font-bold text-center mb-6">
           OUR COPYTRADING MODELS

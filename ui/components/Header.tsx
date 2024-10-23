@@ -6,9 +6,9 @@ export default function Header() {
       <div className="max-w-6xl mx-auto flex gap-32 items-center pt-20">
         <div className="max-w-xl">
           <h1 className="text-6xl font-bold mb-6">
-            When experts trade,{" "}
+            When Experts Trade,{" "}
             <span className="bg-gradient-to-r from-green-400 to-orange-500 bg-clip-text text-transparent">
-              you earn
+              You Earn
             </span>
           </h1>
           <p className="text-xl mb-10">

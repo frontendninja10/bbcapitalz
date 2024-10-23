@@ -1,53 +1,22 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import NavBar from "@/components/NavBar";
 
 export default function Page() {
   return (
     <main>
-      <nav className="bg-black fixed top-0 w-full z-10 text-slate-300 flex justify-between items-center p-4">
-        <div className="text-2xl font-bold">BBCAPITALZ</div>
-        <div className="flex space-x-6">
-          <Link href="/" className="hover:text-green-500">
-            Home
-          </Link>
-          <Link href="/company" className="hover:text-green-500">
-            Company
-          </Link>
-          <Link href="/copytrading" className="hover:text-green-500">
-            Copy Trading
-          </Link>
-          <Link href="/products" className="hover:text-green-500">
-            Products
-          </Link>
-          <Link href="/more" className="hover:text-green-500">
-            More
-          </Link>
-        </div>
-        <div className="flex space-x-4">
-          <button className="bg-green-500 text-white py-2 px-4 rounded-lg">
-            Open an Account
-          </button>
-          <button className="border border-green-500 text-green-500 py-2 px-4 rounded-lg">
-            Client Login
-          </button>
-        </div>
-      </nav>
+      <NavBar />
       <header className="bg-gray-900 pt-20  h-screen">
         <div className="max-w-7xl mx-auto flex gap-32 items-center pt-20">
           <div className="max-w-xl">
-            <h1 className="text-6xl text-slate-300 font-bold mb-6">
+            <h1 className="text-6xl text-slate-300 font-bold mb-16">
               Why {""}
               <span className="bg-gradient-to-r from-green-400 to-orange-500 bg-clip-text text-transparent">
-                BullCopy Trade?
+                BBCapitalz?
               </span>
             </h1>
-            <p className="text-xl mb-10 text-slate-300">
-              Choose a Master account you’d like to Autocopy, deposit the amount
-              of funds you’d like to allocate in your trading account and
-              Autocopy starts when connected. You just started mirroring the Pro
-              Trader’s positions automatically and in real time!
-            </p>
+
             <button className="bg-gradient-to-r from-green-400 to-orange-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg">
               Create an account — It’s free
             </button>
