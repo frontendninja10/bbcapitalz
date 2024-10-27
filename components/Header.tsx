@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import { Command, ShieldCheck, ChartCandlestick } from "lucide-react";
 export default function Header() {
   return (
-    <header className="bg-[#F5F4F6] h-screen">
-      <div className="max-w-6xl mx-auto flex gap-32 items-center pt-20">
+    <header className="bg-[#F5F4F6] py-20">
+      <div className="max-w-6xl mx-auto flex gap-32 items-center">
         <div className="max-w-xl">
           <h1 className="text-6xl font-bold mb-6">
             When Experts Trade,{" "}
@@ -23,24 +24,21 @@ export default function Header() {
         </div>
         <Image src={"/hero-img.jpeg"} alt="logo" width={400} height={400} />
       </div>
-      <div className="flex justify-around mt-10 max-w-6xl mx-auto">
-        <div className="flex items-center">
-          <Image src={"/graph.svg"} alt="logo" width={40} height={40} />
-          <p className="ml-2">
-            Copy traders who trade Real Stocks, Forex, CFDs & more
+      <div className="flex justify-around gap-4 mt-14 max-w-6xl mx-auto">
+        <div className="flex items-center bg-green-100 flex-1 p-4 rounded-lg">
+          <Command className="w-8 h-8 mr-2 flex-shrink-0 text-green-500" />
+          <p className="">
+            Emulate traders who have a proven track record in trading Real
+            Stocks, Forex, CFDs & more
           </p>
         </div>
-        <div className="flex items-center">
-          <Image src={"/graph.svg"} alt="logo" width={40} height={40} />
-          <p className="ml-2">
-            Copy traders who trade Real Stocks, Forex, CFDs & more
-          </p>
+        <div className="flex items-center bg-orange-100 flex-1 p-4 rounded-lg">
+          <ShieldCheck className="w-8 h-8 mr-2 flex-shrink-0 text-orange-500" />
+          <p className="">Transparency and trust</p>
         </div>
-        <div className="flex items-center">
-          <Image src={"/graph.svg"} alt="logo" width={40} height={40} />
-          <p className="ml-2">
-            Copy traders who trade Real Stocks, Forex, CFDs & more
-          </p>
+        <div className="flex items-center bg-blue-100 flex-1 p-4 rounded-lg">
+          <ChartCandlestick className="w-8 h-8 mr-2 flex-shrink-0 text-blue-500" />
+          <p className="">Risk & money management</p>
         </div>
       </div>
     </header>

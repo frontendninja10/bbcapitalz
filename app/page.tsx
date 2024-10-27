@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Header from "../ui/components/Header";
+import Header from "../components/Header";
 import CopyTraders from "../ui/components/CopyTraders";
-import Footer from "../ui/components/Footer";
+import Footer from "../components/Footer";
 import ObjectivesAccordion from "../components/ObjectivesAccordion";
 import NavBar from "@/components/NavBar";
 export default function Home() {
