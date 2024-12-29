@@ -95,12 +95,10 @@ const CollectiveModelTabData = [
     heading: "Find a signal (master account) in the Copy-Trading Homepage",
     description: (
       <>
-        Check out each signal (master account) performance, detailed metrics,
-        asset class, asset allocation and more. Find the one(s) for you{" "}
-        <Link href="https://signal.bbcapitalz.com/" className="text-btnPrimary">
-          here
-        </Link>{" "}
-        for you to follow.
+        Check out each signal (master account) performance,detailed metrics,
+        asset class, asset allocation and more. Find the one(s) for you here.
+        Move to step 2 if your investment amount is less than the minimum
+        deposit required. Check here for minimum amount for each master account.
       </>
     ),
     imageSrc: "/tabPhotos/sm-step-1.jpeg",
@@ -112,20 +110,10 @@ const CollectiveModelTabData = [
     heading: "Enroll For an Account",
     description: (
       <>
-        Open an account with a broker based on your desired master account asset
-        class and deposit your investment amount. Note: (master account's asset
-        class and brokers can be found in the{" "}
-        <Link href="/copy-trading-homepage" className="text-btnPrimary">
-          copy-trading homepage
-        </Link>
-        ). There are in-depth tutorial videos on our{" "}
-        <Link
-          href="https://www.youtube.com/your-channel"
-          className="text-btnPrimary"
-        >
-          YouTube channel
-        </Link>{" "}
-        on how to go about this.
+        Contact us via Live Chat to deposit your funds with us. Minimum deposit
+        amount is $200. Deposits are only accepted at the end of every month
+        from the 20th till the last day of the month and trading starts at the
+        beginning of the next month.
       </>
     ),
     imageSrc: "/tabPhotos/sm-step-2.jpeg",
@@ -136,7 +124,7 @@ const CollectiveModelTabData = [
     title: "Step III",
     heading: "Track the Master trading Account",
     description:
-      "Contact us via Live Chat to access your BBCapitalz Copy-Trader dashboard where you can start copy-trading seamlessly.Enrollment for new clients is open only from the 20th to the 31st of every month.",
+      "Upon confirming your deposit, you will receive your BBcapitalz dashboard login details. This dashboard provides full visibility into the activities of the master account where your funds have been allocated.",
     imageSrc: "/tabPhotos/sm-step-3.png",
     imageAlt: "Woman knitting",
   },
