@@ -13,9 +13,9 @@ import { Handshake, Banknote, GraduationCap } from "lucide-react";
 
 export default function NavBar() {
   return (
-    <nav className="bg-white fixed top-0 w-full z-10 text-slate-300 flex justify-between items-center p-4 px-20">
+    <nav className="bg-white fixed top-0 w-full z-10 text-slate-300 flex justify-between items-center p-4 lg:px-20">
       <div className="text-2xl font-bold text-black">BBCapitalz</div>
-      <div className="flex space-x-20 text-black items-center">
+      <div className="lg:flex space-x-20 text-black items-center hidden">
         <Link href="/" className="hover:text-green-500">
           Home
         </Link>
@@ -53,8 +53,11 @@ export default function NavBar() {
         <Link href="/faqs" className="hover:text-green-500">
           FAQs
         </Link>
+        <Link href="/" className="hover:text-green-500">
+          Payments{" "}
+        </Link>
       </div>
-      <div className="flex space-x-4">
+      <div className="hidden lg:flex space-x-4">
         <button className="bg-[#0099e6] text-white py-2 px-4 rounded-lg">
           Open an Account
         </button>

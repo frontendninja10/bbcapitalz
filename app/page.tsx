@@ -13,7 +13,7 @@ export default function Home() {
       {/* <CopyTraders /> */}
       <CopyTradingModels />
       <ObjectivesAccordion />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
