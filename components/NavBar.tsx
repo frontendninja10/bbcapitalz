@@ -54,7 +54,7 @@ export default function NavBar() {
           icon: <Handshake className="w-4 h-4" />,
         },
         {
-          href: "/loans/farmers",
+          href: "/company/money-management-plan",
           label: "Our Money Management Plan",
           icon: <Banknote className="w-4 h-4" />,
         },
@@ -100,7 +100,7 @@ export default function NavBar() {
                   Why BBCapitalz
                 </NavigationMenuLink>
                 <NavigationMenuLink
-                  href="/company"
+                  href="/company/money-management-plan"
                   className="hover:text-[#0099e6] mb-2 flex items-center"
                 >
                   <Banknote className="w-4 h-4 mr-2" />

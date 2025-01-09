@@ -120,7 +120,7 @@ export default function ObjectivesAccordion() {
           target="_blank"
           className="flex justify-center"
         >
-          <Button className="mt-10 bg-gray-800 text-white">
+          <Button className="mt-10 bg-[#0099e6] text-white">
             Enroll for an Account
           </Button>
         </Link>
