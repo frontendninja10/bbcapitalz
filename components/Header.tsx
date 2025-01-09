@@ -30,7 +30,7 @@ export default function Header() {
           height={250}
         />
       </div>
-      <div className="flex flex-col lg:flex-row justify-around gap-4 mt-14 max-w-6xl mx-auto">
+      <div className="flex flex-col lg:flex-row justify-around gap-4 mt-14 max-w-6xl mx-auto px-6">
         <div className="flex items-center bg-green-100 flex-1 p-4 rounded-lg">
           <Command className="w-8 h-8 mr-2 flex-shrink-0 text-green-500" />
           <p className="">
