@@ -4,9 +4,9 @@ import { Command, ShieldCheck, ChartCandlestick } from "lucide-react";
 export default function Header() {
   return (
     <header className="bg-[#F5F4F6] py-20">
-      <div className="max-w-6xl mx-auto flex gap-32 items-center">
+      <div className="max-w-6xl gap-10 mx-auto flex lg:gap-32 lg:items-center flex-col lg:flex-row pt-20 px-6 lg:px-0">
         <div className="max-w-xl">
-          <h1 className="text-6xl font-bold mb-6">
+          <h1 className="text-5xl lg:text-6xl font-bold mb-6">
             When Experts Trade,{" "}
             <span className="bg-gradient-to-r from-green-400 to-orange-500 bg-clip-text text-transparent">
               You Earn
@@ -22,9 +22,15 @@ export default function Header() {
             Create an account — It’s free
           </button>
         </div>
-        <Image src={"/hero-img.jpeg"} alt="logo" width={400} height={400} />
+        <Image
+          src={"/hero-img.jpeg"}
+          className="w-full h-auto lg:max-w-[400px] self-center"
+          alt="logo"
+          width={250}
+          height={250}
+        />
       </div>
-      <div className="flex justify-around gap-4 mt-14 max-w-6xl mx-auto">
+      <div className="flex flex-col lg:flex-row justify-around gap-4 mt-14 max-w-6xl mx-auto px-6">
         <div className="flex items-center bg-green-100 flex-1 p-4 rounded-lg">
           <Command className="w-8 h-8 mr-2 flex-shrink-0 text-green-500" />
           <p className="">

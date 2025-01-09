@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="bg-black text-gray-300 py-10 text-sm">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex justify-between items-start">
-          <div className="w-1/2">
+        <div className="flex flex-col gap-6 justify-between items-start">
+          <div className="mb-4">
             <h2 className="text-2xl font-bold flex items-center">
               <span className="mr-2">🏠</span> BBCapitalz
             </h2>
@@ -18,10 +18,10 @@ export default function Footer() {
               assisting investors effectively.
             </p>
           </div>
-          <div className="flex space-x-10">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-20">
             <div>
               <h3 className="font-semibold">LEGAL</h3>
-              <ul className="mt-2">
+              <ul className="mt-2 lg:space-y-2">
                 <li>
                   <a href="/privacy-policy" className="hover:underline">
                     Privacy Policy
@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
             <div>
               <h3 className="font-semibold">CUSTOMER SERVICE</h3>
-              <ul className="mt-2">
+              <ul className="mt-2 lg:space-y-2">
                 <li>
                   <a href="/faqs" className="hover:underline">
                     FAQs
@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
             <div>
               <h3 className="font-semibold">MORE RESOURCES</h3>
-              <ul className="mt-2">
+              <ul className="mt-2 lg:space-y-2">
                 <li>
                   <a href="/why-bbcapitalz" className="hover:underline">
                     Why BBCapitalz
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
         </div>
         <hr className="my-6 border-gray-700" />
-        <p className="text-center text-sm">
+        <p className="text-center text-xs lg:max-w-[80%] lg:mx-auto">
           Risk Warning: Trading CFDs involves inherent risks that should be
           carefully considered. CFDs are complex financial instruments and come
           with the potential for significant losses. The high leverage offered

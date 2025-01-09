@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import {
   NavigationMenu,
@@ -9,13 +10,79 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
-import { Handshake, Banknote, GraduationCap } from "lucide-react";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
+import { useState } from "react";
+import {
+  X,
+  House,
+  HandCoins,
+  Handshake,
+  Banknote,
+  GraduationCap,
+  Menu,
+  Building2,
+  MessageCircleQuestion,
+} from "lucide-react";
+import { usePathname } from "next/navigation";
 
 export default function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navList = [
+    {
+      href: "/",
+      text: "Home",
+      icon: <House className="w-4 h-4" />,
+    },
+    {
+      href: "/company",
+      text: "Company",
+      icon: <Building2 className="w-4 h-4" />,
+      subItems: [
+        {
+          href: "/company",
+          label: "Why BBCapitalz",
+          icon: <Handshake className="w-4 h-4" />,
+        },
+        {
+          href: "/company/money-management-plan",
+          label: "Our Money Management Plan",
+          icon: <Banknote className="w-4 h-4" />,
+        },
+        {
+          href: "/loans/energy",
+          label: "Master Accounts Trading Performance",
+          icon: <GraduationCap className="w-4 h-4" />,
+        },
+      ],
+    },
+    {
+      href: "/faqs",
+      text: "FAQS",
+      icon: <MessageCircleQuestion className="w-4 h-4" />,
+    },
+    {
+      href: "/payments",
+      text: "Payments",
+      icon: <HandCoins className="w-4 h-4" />,
+    },
+  ];
+
+  const closeDrawer = () => setIsOpen(false);
+  const pathname = usePathname();
   return (
-    <nav className="bg-white fixed top-0 w-full z-10 text-slate-300 flex justify-between items-center p-4 px-20">
+    <nav className="bg-white fixed top-0 w-full z-10 text-slate-300 flex justify-between items-center p-4 lg:px-20">
       <div className="text-2xl font-bold text-black">BBCapitalz</div>
-      <div className="flex space-x-20 text-black items-center">
+      <div className="lg:flex space-x-20 text-black items-center hidden">
         <Link href="/" className="hover:text-green-500">
           Home
         </Link>
@@ -33,7 +100,7 @@ export default function NavBar() {
                   Why BBCapitalz
                 </NavigationMenuLink>
                 <NavigationMenuLink
-                  href="/company"
+                  href="/company/money-management-plan"
                   className="hover:text-[#0099e6] mb-2 flex items-center"
                 >
                   <Banknote className="w-4 h-4 mr-2" />
@@ -53,8 +120,11 @@ export default function NavBar() {
         <Link href="/faqs" className="hover:text-green-500">
           FAQs
         </Link>
+        <Link href="/" className="hover:text-green-500">
+          Payments{" "}
+        </Link>
       </div>
-      <div className="flex space-x-4">
+      <div className="hidden lg:flex space-x-4">
         <button className="bg-[#0099e6] text-white py-2 px-4 rounded-lg">
           Open an Account
         </button>
@@ -62,6 +132,66 @@ export default function NavBar() {
           Client Login
         </button>
       </div>
+      <Drawer direction="right" open={isOpen} onOpenChange={setIsOpen}>
+        <DrawerTrigger>
+          <Menu className="lg:hidden text-black" />
+        </DrawerTrigger>
+        <DrawerContent className="flex flex-col justify-start items-center p-6 bg-white">
+          <DrawerClose className="ml-auto">
+            <X className="w-8 h-8 text-black" />
+          </DrawerClose>
+          <DrawerHeader>
+            <DrawerDescription>
+              <ul className="flex mt-20 flex-col items-start w-full">
+                {navList.map((item, index) => (
+                  <li
+                    key={index}
+                    className={
+                      index > 0 ? "pt-7 flex flex-col" : "flex flex-col"
+                    }
+                  >
+                    <Link
+                      href={item.href}
+                      className="hover:text-[#161960] text-xl duration-200 pl-2 flex items-center gap-2"
+                      onClick={closeDrawer}
+                    >
+                      {item.icon}
+                      {item.text}
+                    </Link>
+                    {item.subItems && (
+                      <ul className="ml-4 mt-2">
+                        {item.subItems.map((subItem) => (
+                          <li key={subItem.label}>
+                            <Link
+                              href={subItem.href}
+                              className={`flex gap-2 items-center py-2 text-md ${
+                                pathname === subItem.href
+                                  ? "underline underline-offset-4"
+                                  : ""
+                              }`}
+                            >
+                              {subItem.icon}
+                              <span>{subItem.label}</span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </ul>
+              <div className="flex flex-col mt-20 gap-4">
+                <button className="bg-[#0099e6] text-white py-2 px-4 rounded-lg">
+                  Open an Account
+                </button>
+                <button className="border border-[#0099e6] text-[#0099e6] py-2 px-4 rounded-lg">
+                  Client Login
+                </button>
+              </div>
+            </DrawerDescription>
+          </DrawerHeader>
+        </DrawerContent>
+      </Drawer>
     </nav>
   );
 }
