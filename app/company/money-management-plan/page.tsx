@@ -36,16 +36,16 @@ export default function Page() {
               <AccordionTrigger>Note</AccordionTrigger>
               <AccordionContent>
                 <p>
-                  Let's take for example: An investor has $100,000 he or she
-                  wants to trade. The typical and naive move will be to deposit
-                  100% of the capital and not take into consideration leverage.
-                  This comes with a lot of unnecessary risks like:
+                  Let&apos;s take for example: An investor has $100,000 he or
+                  she wants to trade. The typical and naive move will be to
+                  deposit 100% of the capital and not take into consideration
+                  leverage. This comes with a lot of unnecessary risks like:
                 </p>
                 <ol className="list-decimal pl-5">
                   <li>
                     <strong>Internal risks:</strong> which in essence just means
                     mistakes that can be made by the trader which includes but
-                    isn't limited to:
+                    isn&apos;t limited to:
                     <ul className="list-disc pl-5">
                       <li>Over-leveraging</li>
                       <li>
@@ -61,7 +61,7 @@ export default function Page() {
                   <li>
                     <strong>External risks:</strong> which just simply means
                     things that can happen that are out of your control which
-                    includes but isn't limited to:
+                    includes but isn&apos;t limited to:
                     <ul className="list-disc pl-5">
                       <li>
                         Brokerage firms experience business failures or cease
@@ -151,7 +151,7 @@ export default function Page() {
                     actual AUM he/she will trade that <strong>$1,000</strong>{" "}
                     as, will be <strong>$10,000</strong>, because{" "}
                     <strong>10%</strong> of <strong>$10,000</strong> is the
-                    trader's <strong>$1,000</strong>.
+                    trader&apos;s <strong>$1,000</strong>.
                   </li>
                   <li>
                     If the investor has only <strong>$3,000</strong> to invest
@@ -159,7 +159,7 @@ export default function Page() {
                     actual AUM he/she will trade that <strong>$3,000</strong>{" "}
                     as, will be <strong>$30,000</strong>, because{" "}
                     <strong>10%</strong> of <strong>$30,000</strong> is the
-                    trader's <strong>$3,000</strong>.
+                    trader&apos;s <strong>$3,000</strong>.
                   </li>
                   <li>
                     If the investor has only <strong>$5,000</strong> to invest
@@ -167,7 +167,7 @@ export default function Page() {
                     actual AUM he/she will trade that <strong>$5,000</strong>{" "}
                     as, will be <strong>$50,000</strong>, because{" "}
                     <strong>10%</strong> of <strong>$50,000</strong> is the
-                    trader's <strong>$5,000</strong>.
+                    trader&apos;s <strong>$5,000</strong>.
                   </li>
                 </ul>
               </AccordionContent>
@@ -203,7 +203,7 @@ export default function Page() {
               evaluation, then you are to trade a live account.
             </p>
             <p>
-              But the rules for this model is that you aren't to lose{" "}
+              But the rules for this model is that you aren&apos;t to lose{" "}
               <strong>10%</strong> of your whole capital.
             </p>
             <p>
@@ -215,7 +215,7 @@ export default function Page() {
               <strong>100%</strong> without blowing a <strong>10%</strong>.
             </p>
             <p>
-              Making sure that the prop trading company's exposure is just{" "}
+              Making sure that the prop trading company&apos;s exposure is just{" "}
               <strong>10%</strong>.... i.e. they have a threshold of{" "}
               <strong>10%</strong>.
             </p>

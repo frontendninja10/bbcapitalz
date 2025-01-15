@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import NavBar from "@/components/NavBar";
 
 export default function Page() {
@@ -123,10 +122,10 @@ export default function Page() {
               </div>
               <h3 className="font-bold mb-2">Advanced Trading Tools</h3>
               <p className="text-center">
-                (BCT) ' BullCopytrade offers advanced trading tools including
-                advanced order types, depth of market (DOM) and volume-weighted
-                average price (VWAP) indicators, to help you make informed
-                trading decisions.
+                (BCT) &apos; BullCopytrade offers advanced trading tools
+                including advanced order types, depth of market (DOM) and
+                volume-weighted average price (VWAP) indicators, to help you
+                make informed trading decisions.
               </p>
             </div>
           </div>
