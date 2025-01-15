@@ -29,10 +29,10 @@ export default function ObjectivesAccordion() {
             </AccordionTrigger>
             <AccordionContent>
               The actual amount that must be in your trading account is 10% of
-              your capital. While the specific details of each pro trader's risk
-              management plan may vary, our goal is to trade your 10% trading
-              capital as if it were 100% , while ensuring the preservation of
-              the 10% capital.
+              your capital. While the specific details of each pro trader&apos;s
+              risk management plan may vary, our goal is to trade your 10%
+              trading capital as if it were 100% , while ensuring the
+              preservation of the 10% capital.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -105,8 +105,8 @@ export default function ObjectivesAccordion() {
           <AccordionItem value="item-9">
             <AccordionTrigger>Disclaimer</AccordionTrigger>
             <AccordionContent>
-              However, it's important to note that trading involves inherent
-              risks, and even though we employ stringent risk and money
+              However, it&apos;s important to note that trading involves
+              inherent risks, and even though we employ stringent risk and money
               management strategies, there is no guarantee of profits or
               complete elimination of losses. We strive to strike a balance
               between capital growth and risk control, and our experienced team

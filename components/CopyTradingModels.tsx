@@ -32,8 +32,8 @@ const SoloModelTabData = [
     description: (
       <>
         Open an account with a broker based on your desired master account asset
-        class and deposit your investment amount. Note: (master account's asset
-        class and brokers can be found in the{" "}
+        class and deposit your investment amount. Note: (master account&apos;s
+        asset class and brokers can be found in the{" "}
         <Link href="/copy-trading-homepage" className="text-btnPrimary">
           copy-trading homepage
         </Link>
@@ -132,7 +132,7 @@ const CollectiveModelTabData = [
 
 export default function Features() {
   const [activeTab, setActiveTab] = useState(SoloModelTabData[0]);
-  const activeTabData = SoloModelTabData.find((tab) => tab.id === activeTab.id);
+  // const activeTabData = SoloModelTabData.find((tab) => tab.id === activeTab.id);
   return (
     <section className="p-6 lg:px-10 lg:py-4 lg:pt-10 mb-20">
       <div className="lg:max-w-6xl lg:mx-auto">

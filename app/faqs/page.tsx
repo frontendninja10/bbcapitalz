@@ -40,12 +40,13 @@ export default function FAQS() {
             </AccordionTrigger>
             <AccordionContent>
               Yes, like all investments, copy trading carries risks, including
-              the possibility of losses. That's why at BBCapitalz we implement a
-              professional money management plan to safeguard your assets. It's
-              also crucial to conduct thorough research and understand the
-              realities of trading. For this reason, at BBCapitalz we have
-              educational videos,content and resources on our social media
-              channels enlightening and preparing you for copy-trading.
+              the possibility of losses. That&apos;s why at BBCapitalz we
+              implement a professional money management plan to safeguard your
+              assets. It&apos;s also crucial to conduct thorough research and
+              understand the realities of trading. For this reason, at
+              BBCapitalz we have educational videos,content and resources on our
+              social media channels enlightening and preparing you for
+              copy-trading.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -68,7 +69,7 @@ export default function FAQS() {
               To mitigate these risks, we require participants to only deposit
               an amount they are willing to lose, which should be no more than
               10% of their intended capital. Since the minimum deposit is $200,
-              your 10% deposit must be at least $200. It's essential to
+              your 10% deposit must be at least $200. It&apos;s essential to
               understand these risks before proceeding. For a detailed
               explanation of the two types of risks, please refer to this link.
             </AccordionContent>
@@ -140,25 +141,27 @@ export default function FAQS() {
           </AccordionItem>
           <AccordionItem value="item-9">
             <AccordionTrigger>
-              What happens if I don't pay the monthly fee?
+              What happens if I don&apos;t pay the monthly fee?
             </AccordionTrigger>
             <AccordionContent>
               Simple, If for any reason you fail to pay the monthly fee, then
               your trading account will be temporarily removed from the
-              company's database. And when you pay again,it will be added back.
+              company&apos;s database. And when you pay again,it will be added
+              back.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-10">
             <AccordionTrigger>
-              What happens if I don't pay the performance fee?
+              What happens if I don&apos;t pay the performance fee?
             </AccordionTrigger>
             <AccordionContent>
               Note, if for any reason you fail to pay the performance fee or you
               pay it partially,then a reminder email will be sent to you, but if
-              it's to no avail, then your account will be Permanently removed
-              from the company's database and LEGAL ACTION will be taken. If for
-              any reason you are having issues with withdrawals and payments,
-              don't hesitate to reach out. We are one chat away.
+              it&apos;s to no avail, then your account will be Permanently
+              removed from the company&apos;s database and LEGAL ACTION will be
+              taken. If for any reason you are having issues with withdrawals
+              and payments, don&apos;t hesitate to reach out. We are one chat
+              away.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-11">
@@ -168,7 +171,7 @@ export default function FAQS() {
             <AccordionContent>
               Yes, For the Solo Model, there is a minimum investment requirement
               per master trader to start copy trading. Specific amounts can
-              vary, so it's best to check the copy-trading homepage for the
+              vary, so it&apos;s best to check the copy-trading homepage for the
               latest details. Click{" "}
               <Link href="https://signal.bbcapitalz.com/">here</Link> to check
               Whilst for the Collective Model, the minimum deposit amount is
@@ -183,7 +186,7 @@ export default function FAQS() {
               To choose which traders to copy, start by reviewing their
               performance metrics, including historical returns, risk levels,
               worst trade, best trade, win rate, loss rate. The goal is to use
-              these data calculate each trader's expected profitability
+              these data calculate each trader&apos;s expected profitability
               potential.Watch this video on how to do that. Additionally,
               consider factors such as the investor’s trading frequency and
               market expertise to ensure their style aligns with your investment
