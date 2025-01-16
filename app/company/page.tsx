@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
@@ -216,6 +217,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
