@@ -191,62 +191,69 @@ export default function Features() {
           </motion.div>
         </AnimatePresence>
       </div>
-      <div className="lg:max-w-6xl lg:mx-auto">
-        <h3 className="text-lg font-bold text-btnPrimary">Collective Model</h3>
-        <div className="overflow-x-auto invisible-scrollbar">
-          <div className="flex space-x-4 mb-8 mt-10 whitespace-nowrap border-b-2 border-gray-200 min-w-max">
-            {CollectiveModelTabData.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab)}
-                className={`px-4 py-2 text-sm whitespace-nowrap border-b-2 -mb-[2px] ${
-                  activeTab.id === tab.id
-                    ? "text-btnPrimary border-btnPrimary font-bold"
-                    : "text-[#8D8D8D] border-transparent hover:border-gray-300"
-                }`}
-              >
-                {tab.title}
-              </button>
-            ))}
-          </div>
-        </div>
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={activeTab.id}
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -20 }}
-            transition={{ duration: 0.3 }}
-            className="lg:flex lg:justify-between lg:items-center mb-20"
-          >
-            <div className="max-w-sm lg:max-w-2xl">
-              <h2 className="text-3xl lg:text-4xl font-semibold text-btnPrimary mb-4">
-                {activeTab.heading}
-              </h2>
-              <p className="py-4 text-[#8D8D8D] font-['Arial']">
-                {activeTab.description}
-              </p>
-              <Link
-                href="/auth/get-started"
-                className="inline-flex items-center gap-2 my-5 rounded-md px-4 py-4 bg-btnPrimary text-white text-md"
-              >
-                <p className="font-bold text-sm">Get Started</p>
-                <ChevronRightIcon className="w-4 h-4" stroke="white" />
-              </Link>
-            </div>
-            <div className="lg:mt-0">
-              <Image
-                src={activeTab.imageSrc}
-                alt={activeTab.imageAlt}
-                width={355}
-                height={450}
-                className="rounded-lg w-full h-auto"
-                quality={100}
-              />
-            </div>
-          </motion.div>
-        </AnimatePresence>
-      </div>
+      <CollectiveModel />
     </section>
+  );
+}
+
+function CollectiveModel() {
+  const [activeTab, setActiveTab] = useState(CollectiveModelTabData[0]);
+  return (
+    <div className="lg:max-w-6xl lg:mx-auto">
+      <h3 className="text-lg font-bold text-btnPrimary">Collective Model</h3>
+      <div className="overflow-x-auto invisible-scrollbar">
+        <div className="flex space-x-4 mb-8 mt-10 whitespace-nowrap border-b-2 border-gray-200 min-w-max">
+          {CollectiveModelTabData.map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab)}
+              className={`px-4 py-2 text-sm whitespace-nowrap border-b-2 -mb-[2px] ${
+                activeTab.id === tab.id
+                  ? "text-btnPrimary border-btnPrimary font-bold"
+                  : "text-[#8D8D8D] border-transparent hover:border-gray-300"
+              }`}
+            >
+              {tab.title}
+            </button>
+          ))}
+        </div>
+      </div>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeTab.id}
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -20 }}
+          transition={{ duration: 0.3 }}
+          className="lg:flex lg:justify-between lg:items-center mb-20"
+        >
+          <div className="max-w-sm lg:max-w-2xl">
+            <h2 className="text-3xl lg:text-4xl font-semibold text-btnPrimary mb-4">
+              {activeTab.heading}
+            </h2>
+            <p className="py-4 text-[#8D8D8D] font-['Arial']">
+              {activeTab.description}
+            </p>
+            <Link
+              href="/auth/get-started"
+              className="inline-flex items-center gap-2 my-5 rounded-md px-4 py-4 bg-btnPrimary text-white text-md"
+            >
+              <p className="font-bold text-sm">Get Started</p>
+              <ChevronRightIcon className="w-4 h-4" stroke="white" />
+            </Link>
+          </div>
+          <div className="lg:mt-0">
+            <Image
+              src={activeTab.imageSrc}
+              alt={activeTab.imageAlt}
+              width={355}
+              height={450}
+              className="rounded-lg w-full h-auto"
+              quality={100}
+            />
+          </div>
+        </motion.div>
+      </AnimatePresence>
+    </div>
   );
 }
