@@ -1,5 +1,6 @@
 // ui/components/Footer.tsx
 import React from "react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,9 +8,14 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col gap-6 justify-between items-start">
           <div className="mb-4">
-            <h2 className="text-2xl font-bold flex items-center">
-              <span className="mr-2">🏠</span> BBCapitalz
-            </h2>
+            <div className="text-2xl font-bold text-black">
+              <Image
+                src="/bbcapitalz-logo.png"
+                width={150}
+                height={50}
+                alt="Logos"
+              />
+            </div>
             <p className="mt-2">
               At BBCapitalz, our vision is to create a world where lack of
               expertise no longer hinders individuals from building successful
