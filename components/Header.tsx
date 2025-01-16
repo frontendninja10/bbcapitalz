@@ -24,11 +24,11 @@ export default function Header() {
         </div>
         <Image
           src={"/hero-img.jpeg"}
-          className="w-full h-auto lg:max-w-[400px] self-center" // Adjusted max width for lg breakpoints
+          className="w-full h-auto lg:max-w-[400px] self-center"
           alt="logo"
-          width={600} // Set to the actual width of the image
-          height={400} // Set to the actual height of the image
-          layout="responsive" // Ensures the image scales properly
+          width={600}
+          height={400}
+          layout="responsive"
         />
       </div>
       <div className="flex flex-col lg:flex-row justify-around gap-4 mt-20 max-w-6xl mx-auto px-6">
