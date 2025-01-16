@@ -7,10 +7,10 @@ export default function Page() {
   return (
     <main>
       <NavBar />
-      <header className="bg-gray-900 pt-20  h-screen">
-        <div className="max-w-7xl mx-auto flex gap-32 items-center pt-20">
+      <header className="bg-gray-900 py-20 lg:h-screen">
+        <div className="px-6 max-w-6xl flex-col lg:flex-row gap-14 mx-auto flex lg:gap-32 lg:items-center pt-20">
           <div className="max-w-xl">
-            <h1 className="text-6xl text-slate-300 font-bold mb-16">
+            <h1 className="lg:text-6xl text-5xl text-slate-300 font-bold mb-16">
               Why {""}
               <span className="bg-gradient-to-r from-green-400 to-orange-500 bg-clip-text text-transparent">
                 BBCapitalz?
@@ -21,10 +21,17 @@ export default function Page() {
               Create an account — It’s free
             </button>
           </div>
-          <Image src={"/girl.webp"} alt="logo" width={600} height={600} />
+          <Image
+            className="w-full h-auto max-w-[300px] lg:max-w-[500px] self-center"
+            src={"/girl.webp"}
+            layout="responsive"
+            alt="logo"
+            width={600}
+            height={600}
+          />
         </div>
       </header>
-      <section className="bg-black text-white py-20">
+      <section className="bg-black text-white py-20 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="bg-gray-800 p-6 rounded-lg flex items-start">
             <Image src={"/image-2.png"} alt="logo" width={150} height={150} />
@@ -78,7 +85,7 @@ export default function Page() {
         </div>
       </section>
       {/* What Makes BBCapitalz different */}
-      <section className="bg-white text-black py-20">
+      <section className="bg-white text-black py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4">
             What makes BBCapitalz different?
@@ -133,7 +140,7 @@ export default function Page() {
         </div>
       </section>
       {/* Why copy trading on BBCapitalz */}
-      <section className="bg-black text-slate-300 py-20">
+      <section className="bg-black text-slate-300 py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4">
             Why CopyTrade on BBCapitalz?
