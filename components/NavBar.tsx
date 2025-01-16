@@ -29,6 +29,7 @@ import {
   MessageCircleQuestion,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,7 +78,9 @@ export default function NavBar() {
   const pathname = usePathname();
   return (
     <nav className="bg-white fixed top-0 w-full z-10 text-slate-300 flex justify-between items-center p-4 lg:px-20">
-      <div className="text-2xl font-bold text-black">BBCapitalz</div>
+      <div className="text-2xl font-bold text-black">
+        <Image src="/bbcapitalz-logo.png" width={150} height={50} alt="Logos" />
+      </div>
       <div className="lg:flex space-x-20 text-black items-center hidden">
         <Link href="/" className="hover:text-green-500">
           Home
