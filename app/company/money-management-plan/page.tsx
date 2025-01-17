@@ -278,20 +278,6 @@ export default function Page() {
               </li>
             </ol>
           </div>
-          <div className="py-6 my-10 px-4 bg-gray-100 border-t border-b border-gray-300">
-            <p className="text-gray-800">
-              Trading CFDs involves inherent risks that should be carefully
-              considered. CFDs are complex financial instruments and come with
-              the potential for significant losses. The high leverage offered in
-              CFDs trading can amplify both profits and losses. Investors should
-              be aware that they may lose more than their initial investment. It
-              is crucial to have a solid understanding of the underlying assets,
-              market conditions, and risk management strategies before engaging
-              in CFDs trading. Past performance is not indicative of future
-              results. It is recommended to seek professional advice and only
-              trade with funds that one can afford to lose.
-            </p>
-          </div>
         </main>
       </section>
       <Footer />
