@@ -10,12 +10,15 @@ export default function Page() {
       <header className="bg-gray-900 py-20 lg:h-screen">
         <div className="px-6 max-w-6xl flex-col lg:flex-row gap-14 mx-auto flex lg:gap-32 lg:items-center pt-20">
           <div className="max-w-xl">
-            <h1 className="lg:text-6xl text-5xl text-slate-300 font-bold mb-16">
-              Why {""}
+            <h1 className="lg:text-6xl text-5xl text-slate-300 font-bold mb-6">
+              At {""}
               <span className="bg-gradient-to-r from-green-400 to-orange-500 bg-clip-text text-transparent">
                 BBCapitalz?
               </span>
             </h1>
+            <p className="my-6 mb-10 text-white text-xl">
+              We have your best interests at heart
+            </p>
 
             <button className="bg-gradient-to-r from-green-400 to-orange-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg">
               Create an account — It’s free
@@ -34,7 +37,6 @@ export default function Page() {
       <section className="bg-black text-white py-20 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="bg-gray-800 p-6 rounded-lg flex items-start">
-            <Image src={"/image-2.png"} alt="logo" width={150} height={150} />
             <div className="text-3xl mr-4">✅</div>
             <div>
               <h3 className="font-bold">
@@ -44,7 +46,6 @@ export default function Page() {
             </div>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg flex items-start">
-            <Image src={"/phones.jpeg"} alt="logo" width={150} height={150} />
             <div className="text-3xl mr-4">✅</div>
             <div>
               <h3 className="font-bold">
