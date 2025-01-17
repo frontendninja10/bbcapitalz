@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
@@ -7,7 +8,7 @@ export default function Page() {
       <NavBar />
       <main className="px-6">
         <h2>Payment Instructions</h2>
-        <div className="flex flex-col gap-14">
+        <div className="flex py-20 flex-col lg:flex-row lg:gap-14 lg:max-w-6xl lg:mx-auto gap-14">
           <div className="bg-[#f7f7f7]">
             <div className="bg-[#0099e6] py-7 text-center text-white">
               <h3 className="italic text-2xl font-semibold">
@@ -20,6 +21,7 @@ export default function Page() {
               alt=""
               width={400}
               height={400}
+              className="w-full"
             />
             <div className="text-center py-6">
               <p>From</p>
@@ -45,6 +47,7 @@ export default function Page() {
               alt=""
               width={400}
               height={400}
+              className="w-full"
             />
             <div className="text-center py-6">
               <p>From</p>
@@ -68,6 +71,7 @@ export default function Page() {
               alt=""
               width={400}
               height={400}
+              className="w-full"
             />
             <div className="text-center py-6">
               <p>From</p>
@@ -83,6 +87,7 @@ export default function Page() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

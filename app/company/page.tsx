@@ -94,7 +94,7 @@ export default function Page() {
           <p className="text-lg mb-10">
             The No 1 Copy-trading firm dedicated to client success
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="bg-gray-100 p-6 rounded-lg flex flex-col items-center">
               <div className="bg-green-500 text-white rounded-full p-4 mb-4">
                 <span className="text-2xl">0.0</span>
@@ -123,18 +123,6 @@ export default function Page() {
                 while maximizing returns. Join us on this exciting journey to
                 smarter investing!. All you need to risk is just 10%, Keep or
                 use the remaining 90% as you see fit.
-              </p>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg flex flex-col items-center">
-              <div className="bg-green-500 text-white rounded-full p-4 mb-4">
-                <span className="text-2xl">📈</span>
-              </div>
-              <h3 className="font-bold mb-2">Advanced Trading Tools</h3>
-              <p className="text-center">
-                (BCT) &apos; BullCopytrade offers advanced trading tools
-                including advanced order types, depth of market (DOM) and
-                volume-weighted average price (VWAP) indicators, to help you
-                make informed trading decisions.
               </p>
             </div>
           </div>
