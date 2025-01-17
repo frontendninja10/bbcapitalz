@@ -119,7 +119,7 @@ export default function NavBar() {
         <Link href="/faqs" className="hover:text-green-500">
           FAQs
         </Link>
-        <Link href="/" className="hover:text-green-500">
+        <Link href="/payments" className="hover:text-green-500">
           Payments{" "}
         </Link>
       </div>
