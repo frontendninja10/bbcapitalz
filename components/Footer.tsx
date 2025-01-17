@@ -87,7 +87,13 @@ export default function Footer() {
           Risk Warning: Trading CFDs involves inherent risks that should be
           carefully considered. CFDs are complex financial instruments and come
           with the potential for significant losses. The high leverage offered
-          in CFDs trading can
+          in CFDs trading can amplify both profits and losses. Investors should
+          be aware that they may lose more than their initial investment. It is
+          crucial to have a solid understanding of the underlying assets, market
+          conditions, and risk management strategies before engaging in CFDs
+          trading. Past performance is not indicative of future results.It is
+          recommended to seek professional advice and only trade with funds that
+          one can afford to lose.
         </p>
       </div>
     </footer>

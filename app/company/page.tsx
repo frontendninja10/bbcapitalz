@@ -53,14 +53,7 @@ export default function Page() {
               </h3>
             </div>
           </div>
-          <div className="bg-gray-800 p-6 rounded-lg flex items-start">
-            <div className="text-3xl mr-4">✅</div>
-            <div>
-              <h3 className="font-bold">
-                0% Low trading fees and competitive spreads 👊
-              </h3>
-            </div>
-          </div>
+
           <div className="bg-gray-800 p-6 rounded-lg flex items-start">
             <div className="text-3xl mr-4">✅</div>
             <div>
