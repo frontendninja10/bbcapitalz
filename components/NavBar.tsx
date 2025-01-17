@@ -135,7 +135,7 @@ export default function NavBar() {
         <DrawerTrigger>
           <Menu className="lg:hidden text-black" />
         </DrawerTrigger>
-        <DrawerContent className="flex flex-col justify-start items-center p-6 bg-white">
+        <DrawerContent className="flex flex-col justify-start items-center p-6 bg-white w-[90%]">
           <DrawerClose className="ml-auto">
             <X className="w-8 h-8 text-black" />
           </DrawerClose>
