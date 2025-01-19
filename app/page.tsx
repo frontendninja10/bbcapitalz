@@ -21,7 +21,7 @@ export default function Home() {
 
 function VideoFromCEO() {
   return (
-    <section className="bg-[#F0EFFF]">
+    <section className="bg-[#F5F4F6]">
       <div className="max-w-7xl mx-auto py-16 px-4">
         <h2 className="text-center text-3xl font-bold pb-5 text-[#0A2540]">
           Official video from our CEO
@@ -30,8 +30,8 @@ function VideoFromCEO() {
           A Premier Copy Trading Firm dedicated to Client Success.
         </p>
         <iframe
-          className="mt-4 mx-auto md:mt-0 max-w-[850px] w-full rounded-xl h-[400px] md:h-[550px] bg-white"
-          src="https://youtu.be/bcp3ITh1bQg?si=nUQGqlGGzMYfvEDL"
+          className="mt-4 mx-auto md:mt-0 max-w-[850px] w-full rounded-xl h-[400px] md:h-[550px]"
+          src="https://www.youtube.com/embed/bcp3ITh1bQg"
           title="BBCapitalz explanatory video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
