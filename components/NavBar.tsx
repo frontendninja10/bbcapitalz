@@ -56,7 +56,7 @@ export default function NavBar() {
           icon: <Banknote className="w-4 h-4" />,
         },
         {
-          href: "/loans/energy",
+          href: "https://signal.bbcapitalz.com/",
           label: "Master Accounts Trading Performance",
           icon: <GraduationCap className="w-4 h-4" />,
         },
