@@ -1,6 +1,7 @@
 // ui/components/Footer.tsx
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -29,12 +30,18 @@ export default function Footer() {
               <h3 className="font-semibold">LEGAL</h3>
               <ul className="mt-2 lg:space-y-2">
                 <li>
-                  <a href="/privacy-policy" className="hover:underline">
+                  <a
+                    href="https://bbcapitalz.bitrix24.site/preview/5c2353f24d36c9a8ea1b25f00020b9fe/privacypolicy/"
+                    className="hover:underline"
+                  >
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/terms" className="hover:underline">
+                  <a
+                    href="https://bbcapitalz.bitrix24.site/preview/5c2353f24d36c9a8ea1b25f00020b9fe/termsandconditions/"
+                    className="hover:underline"
+                  >
                     Terms & Conditions
                   </a>
                 </li>
@@ -49,7 +56,10 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/livechat" className="hover:underline">
+                  <a
+                    href="https://signal.bbcapitalz.com/"
+                    className="hover:underline"
+                  >
                     LiveChat
                   </a>
                 </li>
@@ -59,24 +69,25 @@ export default function Footer() {
               <h3 className="font-semibold">MORE RESOURCES</h3>
               <ul className="mt-2 lg:space-y-2">
                 <li>
-                  <a href="/why-bbcapitalz" className="hover:underline">
+                  <Link href="/company" className="hover:underline">
                     Why BBCapitalz
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/money-management" className="hover:underline">
+                  <Link
+                    href="/company/money-management-plan"
+                    className="hover:underline"
+                  >
                     Our Money Management Plan
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/master-accounts" className="hover:underline">
-                    Master Accounts
-                  </a>
-                </li>
-                <li>
-                  <a href="/performance" className="hover:underline">
-                    Performance
-                  </a>
+                  <Link
+                    href="https://signal.bbcapitalz.com/"
+                    className="hover:underline"
+                  >
+                    Master Accounts Performance
+                  </Link>
                 </li>
               </ul>
             </div>

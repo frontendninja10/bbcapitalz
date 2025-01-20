@@ -56,7 +56,7 @@ export default function NavBar() {
           icon: <Banknote className="w-4 h-4" />,
         },
         {
-          href: "/loans/energy",
+          href: "https://signal.bbcapitalz.com/",
           label: "Master Accounts Trading Performance",
           icon: <GraduationCap className="w-4 h-4" />,
         },
@@ -106,7 +106,8 @@ export default function NavBar() {
                   Our Money Management Plan
                 </NavigationMenuLink>
                 <NavigationMenuLink
-                  href="/company"
+                  href="https://signal.bbcapitalz.com/"
+                  target="_blank"
                   className="hover:text-[#0099e6] mb-2 flex items-center"
                 >
                   <GraduationCap className="w-4 h-4 mr-2" />
@@ -125,10 +126,12 @@ export default function NavBar() {
       </div>
       <div className="hidden lg:flex space-x-4">
         <button className="bg-[#0099e6] text-white py-2 px-4 rounded-lg">
-          Open an Account
+          <Link href="https://1887.3cx.cloud/callus/#bbcapitalz">
+            Open an Account
+          </Link>
         </button>
         <button className="border border-[#0099e6] text-[#0099e6] py-2 px-4 rounded-lg">
-          Client Login
+          <Link href="https://signal.bbcapitalz.com/login">Client Login</Link>
         </button>
       </div>
       <Drawer direction="right" open={isOpen} onOpenChange={setIsOpen}>
