@@ -125,22 +125,6 @@ export default function ObjectivesAccordion() {
           </Button>
         </Link>
       </div>
-      <div className="flex flex-col items-center mt-10">
-        <p className="text-lg font-semibold text-gray-800">
-          Official video from our CEO.
-        </p>
-        <p className="text-md text-gray-600 mb-4">
-          A Premier Copy Trading Firm dedicated to Client Success.
-        </p>
-        <Link
-          href="https://www.youtube.com/channel/your_channel_id" // Replace with actual YouTube channel link
-          target="_blank"
-        >
-          <Button className="bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 transition duration-300">
-            Visit Our YouTube Channel
-          </Button>
-        </Link>
-      </div>
     </section>
   );
 }
