@@ -7,6 +7,7 @@ import {
   AccordionTrigger,
   AccordionItem,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -83,13 +84,15 @@ export default function Page() {
             />
             <div className="text-center py-6">
               <p>From</p>
-              <h3 className="py-1">$200</h3>
+              <h3 className="py-1 text-2xl font-bold text-[#0099e6]">$200</h3>
               <p className="py-2">
                 Here, payments should only be made from the 20th to the last day
                 of every month.
               </p>
               <button className="bg-[#0099e6] mt-12 py-3 px-7 rounded-xl uppercase text-white font-semibold">
-                Pay Now
+                <Link href="https://nowpayments.io/donation/BBCapitalz_collective_model">
+                  Pay Now
+                </Link>
               </button>
             </div>
           </div>
@@ -109,13 +112,17 @@ export default function Page() {
             />
             <div className="text-center py-6">
               <p>From</p>
-              <h3 className="py-1">$200</h3>
+              <h3 className="py-1 text-2xl font-bold text-[#0099e6]">
+                $15 per account
+              </h3>
               <p className="py-2">
                 Here, payments should only be made from the 20th to the last day
                 of every month.
               </p>
               <button className="bg-[#0099e6] mt-12 py-3 px-7 rounded-xl uppercase text-white font-semibold">
-                Pay Now
+                <Link href="https://nowpayments.io/donation/BBCapitalz_subscription_fee">
+                  Pay Now
+                </Link>
               </button>
             </div>
           </div>
@@ -133,13 +140,15 @@ export default function Page() {
             />
             <div className="text-center py-6">
               <p>From</p>
-              <h3 className="py-1">$200</h3>
+              <p>30% of the profits made on your trading account.</p>
               <p className="py-2">
                 Here, payments should only be made from the 20th to the last day
                 of every month.
               </p>
               <button className="bg-[#0099e6] mt-12 py-3 px-7 rounded-xl uppercase text-white font-semibold">
-                Pay Now
+                <Link href="https://nowpayments.io/donation/BBCapitalz_performance_fee">
+                  Pay Now
+                </Link>
               </button>
             </div>
           </div>

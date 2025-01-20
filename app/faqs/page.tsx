@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/accordion";
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function FAQS() {
   return (
@@ -215,6 +216,7 @@ export default function FAQS() {
           </AccordionItem>
         </Accordion>
       </div>
+      <Footer />
     </section>
   );
 }

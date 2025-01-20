@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -21,7 +22,9 @@ export default function Page() {
             </p>
 
             <button className="bg-gradient-to-r from-green-400 to-orange-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg">
-              Create an account — It’s free
+              <Link href="https://1887.3cx.cloud/callus/#bbcapitalz">
+                Open an Account - It's free
+              </Link>
             </button>
           </div>
           <Image
