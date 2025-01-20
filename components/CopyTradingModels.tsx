@@ -34,12 +34,12 @@ const SoloModelTabData = [
         Open an account with a broker based on your desired master account asset
         class and deposit your investment amount. Note: (master account&apos;s
         asset class and brokers can be found in the{" "}
-        <Link href="/copy-trading-homepage" className="text-btnPrimary">
+        <Link href="https://signal.bbcapitalz.com/" className="text-btnPrimary">
           copy-trading homepage
         </Link>
         ). There are in-depth tutorial videos on our{" "}
         <Link
-          href="https://www.youtube.com/your-channel"
+          href="https://www.youtube.com/channel/UC5E-TwepS1rzYOZKeM_FeQA?sub_confirmation=1&sub_confirmation=1"
           className="text-btnPrimary"
         >
           YouTube channel
@@ -55,7 +55,7 @@ const SoloModelTabData = [
     title: "Step III",
     heading: "Enroll for an Account",
     description:
-      "Contact us via Live Chat to access your BBCapitalz Copy-Trader dashboard where you can start copy-trading seamlessly.Enrollment for new clients is open only from the 20th to the 31st of every month.",
+      "Contact us via Live Chat to access your BBCapitalz Copy-Trader dashboard where you can start copy-trading seamlessly. Enrollment for new clients is open only from the 20th to the 31st of every month.",
     imageSrc: "/tabPhotos/sm-step-3.png",
     imageAlt: "Woman knitting",
   },
@@ -64,7 +64,7 @@ const SoloModelTabData = [
     title: "Step IV",
     heading: "Connect your trading account",
     description:
-      "You have to follow a signal to connect your trading account in your dashboard, please utilize the trading account ID and password provided in your client area with your broker. This will allow you to link your MT4/MT5 account to your investor dashboard.Watch this short video on how to go about it.",
+      "You have to follow a signal to connect your trading account in your dashboard, please utilize the trading account ID and password provided in your client area with your broker. This will allow you to link your MT4/MT5 account to your investor dashboard. Watch this short video on how to go about it.",
     imageSrc: "/tabPhotos/sm-step-4.jpeg",
     imageAlt: "Woman knitting",
   },
@@ -98,7 +98,11 @@ const CollectiveModelTabData = [
         Check out each signal (master account) performance,detailed metrics,
         asset class, asset allocation and more. Find the one(s) for you here.
         Move to step 2 if your investment amount is less than the minimum
-        deposit required. Check here for minimum amount for each master account.
+        deposit required. Check{" "}
+        <Link href="https://signal.bbcapitalz.com/" className="text-btnPrimary">
+          here
+        </Link>{" "}
+        for minimum amount for each master account.
       </>
     ),
     imageSrc: "/tabPhotos/sm-step-1.jpeg",
@@ -116,7 +120,7 @@ const CollectiveModelTabData = [
         beginning of the next month.
       </>
     ),
-    imageSrc: "/tabPhotos/sm-step-2.jpeg",
+    imageSrc: "/tabPhotos/sm-step-3.png",
     imageAlt: "Woman writing",
   },
   {
@@ -171,7 +175,7 @@ export default function Features() {
                 {activeTab.description}
               </p>
               <Link
-                href="/auth/get-started"
+                href="https://1887.3cx.cloud/callus/#bbcapitalz"
                 className="inline-flex items-center gap-2 my-5 rounded-md px-4 py-4 bg-btnPrimary text-white text-md"
               >
                 <p className="font-bold text-sm">Get Started</p>
@@ -235,7 +239,7 @@ function CollectiveModel() {
               {activeTab.description}
             </p>
             <Link
-              href="/auth/get-started"
+              href="https://1887.3cx.cloud/callus/#bbcapitalz"
               className="inline-flex items-center gap-2 my-5 rounded-md px-4 py-4 bg-btnPrimary text-white text-md"
             >
               <p className="font-bold text-sm">Get Started</p>

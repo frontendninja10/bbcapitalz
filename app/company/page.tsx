@@ -13,7 +13,7 @@ export default function Page() {
             <h1 className="lg:text-6xl text-5xl text-slate-300 font-bold mb-6">
               At {""}
               <span className="bg-gradient-to-r from-green-400 to-orange-500 bg-clip-text text-transparent">
-                BBCapitalz?
+                BBCapitalz
               </span>
             </h1>
             <p className="my-6 mb-10 text-white text-xl">
