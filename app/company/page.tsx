@@ -23,7 +23,7 @@ export default function Page() {
 
             <button className="bg-gradient-to-r from-green-400 to-orange-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg">
               <Link href="https://1887.3cx.cloud/callus/#bbcapitalz">
-                Open an Account - It's free
+                Open an Account - It&apos;s free
               </Link>
             </button>
           </div>
