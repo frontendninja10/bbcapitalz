@@ -214,6 +214,22 @@ export default function FAQS() {
               you.
             </AccordionContent>
           </AccordionItem>
+          <AccordionItem value="item-15">
+            <AccordionTrigger>
+              What specific expertise do the professional traders possess?
+            </AccordionTrigger>
+            <AccordionContent>
+              The professional traders at BBcapitalz possess a diverse range of
+              expertise in the financial markets. They have in-depth knowledge
+              and experience in areas such as technical analysis, fundamental
+              analysis,trading psychology, risk management, and market trends.
+              Additionally, they stay updated with the latest market
+              developments and employ sophisticated trading strategies to
+              maximize returns while managing risk effectively. Their expertise
+              allows them to make informed decisions, identify profitable
+              trading opportunities, and adapt to changing market conditions.
+            </AccordionContent>
+          </AccordionItem>
         </Accordion>
       </div>
       <Footer />
