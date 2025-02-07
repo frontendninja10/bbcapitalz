@@ -230,6 +230,21 @@ export default function FAQS() {
               trading opportunities, and adapt to changing market conditions.
             </AccordionContent>
           </AccordionItem>
+          <AccordionItem value="item-16">
+            <AccordionTrigger>
+              Can I pause or stop copying a trading account at any time?
+            </AccordionTrigger>
+            <AccordionContent>
+              You can pause or stop copying a trading account at any time, but
+              we advise against it to prevent missing out on potential profits,
+              as well as to remind you of the risks involved in trading and the
+              importance of maintaining an emotionally detached approach by
+              investing only what you are willing to lose. And note, regardless
+              of you removing your account from your dashboard, all trades that
+              have been placed on the account are all saved and recorded,so if
+              there is a profit, you will be charged regardless.
+            </AccordionContent>
+          </AccordionItem>
         </Accordion>
       </div>
       <Footer />
