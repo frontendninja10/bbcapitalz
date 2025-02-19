@@ -184,10 +184,14 @@ export default function NavBar() {
               </ul>
               <div className="flex flex-col mt-20 gap-4">
                 <button className="bg-[#0099e6] text-white py-2 px-4 rounded-lg">
-                  Open an Account
+                  <Link href="https://1887.3cx.cloud/callus/#bbcapitalz">
+                    Open an Account
+                  </Link>
                 </button>
                 <button className="border border-[#0099e6] text-[#0099e6] py-2 px-4 rounded-lg">
-                  Client Login
+                  <Link href="https://signal.bbcapitalz.com/login">
+                    Client Login
+                  </Link>
                 </button>
               </div>
             </DrawerDescription>
