@@ -31,7 +31,7 @@ function VideoFromCEO() {
         </p>
         <iframe
           className="mt-4 mx-auto md:mt-0 max-w-[850px] w-full rounded-xl h-[400px] md:h-[550px]"
-          src="https://www.youtube.com/embed/bcp3ITh1bQg"
+          src="https://www.youtube.com/embed/2fVawRRmNMY"
           title="BBCapitalz explanatory video"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -41,3 +41,5 @@ function VideoFromCEO() {
     </section>
   );
 }
+
+// https://youtube.com/shorts/2fVawRRmNMY?si=NEvuc-jUGFOcflER
