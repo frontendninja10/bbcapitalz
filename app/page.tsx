@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import ObjectivesAccordion from "../components/ObjectivesAccordion";
 import NavBar from "@/components/NavBar";
 import CopyTradingModels from "@/components/CopyTradingModels";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -45,7 +46,11 @@ function VideoFromCEO() {
 
 function LiveChatButton() {
   return (
-    <button className="fixed bottom-6 right-6 bg-btnPrimary hover:bg-sky-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 z-50 flex items-center gap-2">
+    <Link
+      href="https://1887.3cx.cloud/callus/#bbcapitalz"
+      target="_blank"
+      className="fixed bottom-6 right-6 bg-btnPrimary hover:bg-sky-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 z-50 flex items-center gap-2"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -61,6 +66,6 @@ function LiveChatButton() {
         />
       </svg>
       <span className="hidden md:inline">Chat with us</span>
-    </button>
+    </Link>
   );
 }
