@@ -19,7 +19,7 @@ export default function ObjectivesAccordion() {
           <AccordionItem value="item-1">
             <AccordionTrigger>Maximum Drawdown</AccordionTrigger>
             <AccordionContent>
-              The maximum allowable draw-down is limited to 10% of your capital,
+              The maximum allowable draw-down is limited to 20% of your capital,
               which must only be the amount deposited into the trading account.
             </AccordionContent>
           </AccordionItem>
@@ -28,11 +28,11 @@ export default function ObjectivesAccordion() {
               Actual Amount in Trading Account
             </AccordionTrigger>
             <AccordionContent>
-              The actual amount that must be in your trading account is 10% of
+              The actual amount that must be in your trading account is 20% of
               your capital. While the specific details of each pro trader&apos;s
-              risk management plan may vary, our goal is to trade your 10%
+              risk management plan may vary, our goal is to trade your 20%
               trading capital as if it were 100% , while ensuring the
-              preservation of the 10% capital.
+              preservation of the 20% capital.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -116,7 +116,7 @@ export default function ObjectivesAccordion() {
           </AccordionItem>
         </Accordion>
         <Link
-          href="https://1887.3cx.cloud/callus/#bbcapitalz"
+          href="https://signal.bbcapitalz.com/register"
           target="_blank"
           className="flex justify-center"
         >
