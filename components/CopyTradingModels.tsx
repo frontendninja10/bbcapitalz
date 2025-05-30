@@ -175,7 +175,7 @@ export default function Features() {
                 {activeTab.description}
               </p>
               <Link
-                href="https://signal.bbcapitalz.com/register"
+                href="https://signal.bbcapitalz.com/"
                 className="inline-flex items-center gap-2 my-5 rounded-md px-4 py-4 bg-btnPrimary text-white text-md"
               >
                 <p className="font-bold text-sm">Get Started</p>
@@ -239,7 +239,7 @@ function CollectiveModel() {
               {activeTab.description}
             </p>
             <Link
-              href="https://signal.bbcapitalz.com/register"
+              href="https://signal.bbcapitalz.com/ "
               className="inline-flex items-center gap-2 my-5 rounded-md px-4 py-4 bg-btnPrimary text-white text-md"
             >
               <p className="font-bold text-sm">Get Started</p>
