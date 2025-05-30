@@ -174,7 +174,7 @@ export default function Page() {
             </AccordionItem>
           </Accordion>
           <Link
-            href="https://1887.3cx.cloud/callus/#bbcapitalz"
+            href="https://signal.bbcapitalz.com/register"
             target="_blank"
             className="flex justify-center mb-10"
           >
