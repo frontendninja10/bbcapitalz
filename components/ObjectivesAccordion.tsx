@@ -31,8 +31,8 @@ export default function ObjectivesAccordion() {
               The actual amount that must be in your trading account is 20% of
               your capital. While the specific details of each pro trader&apos;s
               risk management plan may vary, our goal is to trade your 20%
-              trading capital as if it were 100% , while ensuring the
-              preservation of the 20% capital.
+              trading capital as if it were 100% ,whilst managing the 20%
+              capital professionally.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
