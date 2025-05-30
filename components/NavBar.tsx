@@ -126,7 +126,7 @@ export default function NavBar() {
       </div>
       <div className="hidden lg:flex space-x-4">
         <button className="bg-[#0099e6] text-white py-2 px-4 rounded-lg">
-          <Link href="https://1887.3cx.cloud/callus/#bbcapitalz">
+          <Link href="https://signal.bbcapitalz.com/register">
             Open an Account
           </Link>
         </button>
