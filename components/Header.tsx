@@ -14,14 +14,13 @@ export default function Header() {
             </span>
           </h1>
           <p className="text-xl mb-10">
-            Choose a Master account you’d like to Autocopy, deposit the amount
-            of funds you’d like to allocate in your trading account and Autocopy
-            starts when connected. You just started mirroring the Pro Trader’s
-            positions automatically and in real time!
+            Choose a Master account to Autocopy, deposit your funds, and start
+            mirroring a Pro Trader&apos;s positions automatically
+            and in real time!
           </p>
           <button className="bg-gradient-to-r from-green-400 to-orange-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg">
-            <Link href="https://signal.bbcapitalz.com/register">
-              Open an Account - It&apos;s free
+            <Link href="https://signal.bbcapitalz.com/">
+              View Master Accounts Performance
             </Link>
           </button>
         </div>
